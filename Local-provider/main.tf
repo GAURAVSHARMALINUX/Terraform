@@ -12,6 +12,7 @@ provider "local" {
 }
 
 resource "local_file" "dockerfile" {
-    
+    filename = var.filename
+    content = var.content
   
 }
